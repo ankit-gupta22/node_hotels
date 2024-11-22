@@ -13,15 +13,6 @@ app.get('/', (req,res) =>{
     res.send("Welcome to our hotel");
 });
 
-
-
-
-
-
-
-
-
-
 const personRoutes = require('./routes/personRoutes');
 const menuItemRoutes = require('./routes/menuItemRoutes');
 
@@ -36,3 +27,5 @@ app.listen(port, () => {
 });
 
 // adding comment for testing
+
+// second comment for testing
